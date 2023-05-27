@@ -13,61 +13,70 @@
         <!--Barre de navigation-->
         <header>
             <nav>
+               <ul>
                 <div class="logo">
-                    <a href="#Accueil">Accueil</a>
+                <li><i class="fa-solid fa-house fa-sm"></i><a href="#Accueil">Accueil</a></li>
                 </div>
                 <div class="onglets">
-                    <a href="#À propos,">À propos</a>
-                    <a href="#Travail">Travail</a>
-                    <a href="#CV">CV</a>
-                    <a href="mailto:falfj789@gmail.com">Contact</a>
+                    <li><i class="fa-solid fa-user fa-sm"></i><a href="#À propos,">À propos</a></li>
+                    <li><i class="fa-solid fa-briefcase fa-sm"></i><a href="#Travail">Travail</a></li>
+                    <li><i class="fa-regular fa-file-lines fa-sm"></i><a href="#CV">CV</a></li>
+                    <li><i class="fa-solid fa-address-book fa-sm"></i><a href="mailto:falfj789@gmail.com">Contact</a></li>
                 </div>
+               </ul>  
             </nav>
             <!--Fin de la barre de navigation-->
         </header>
 
-        <!--Section À propos-->
-        <section class="À propos" id="À propos">
-            <div class="gauche">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis tempore quae aut corrupti nobis hic quos minus similique laborum qui! Nihil sed commodi at corrupti assumenda autem ratione reprehenderit accusantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam deleniti itaque inventore, tempore expedita quo, dicta aliquam ex ullam facilis odit aperiam veritatis magni autem? Eaque voluptatum in ipsam quod.</p>
-            </div>
-            <div class="droite">
-                <img src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__480.jpg" width="300">
-            </div>
+        <!--SECTION ABOUT-->
+        <section>
+            <h3>À propos</h3>
+            <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</text>
+            <p>Je suis à GOMYCODE</p>
         </section>
-        <!--Fin de la section À propos-->
+        <!--FIN SECTION ABOUT-->
 
-        <!--Section Travail-->
-        <section class="Travail" id="Travail">
-            <h1>Voici quelques projet que j'ai réalisé</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolore consectetur illum delectus excepturi voluptates, nostrum numquam fugiat quibusdam vel vero iure accusamus ab laborum cupiditate, sint rerum fugit natus</p>
-            <div class="projet-carte">
-                <div class="carte" align="center">
-                    <h1>Site de restauration</h1>
-                    <i class="fa-solid fa-burger fa-2xl" alt="Burger"></i>
-                </div>
-                <div class="carte" align="center">
-                    <h1>Site de location</h1>
-                    <i class="fa-solid fa-car fa-2xl" alt="Voiture"></i>
-                </div>
-                <div class="carte" align="center">
-                    <h1>Site de vente</h1>
-                    <i class="fa-solid fa-bag-shopping fa-2xl" alt="Sac"></i>
-                </div>
-            </div>
+        <!--SECTION WORK-->
+        <section>
+            <h2>Travail</h2>
+            <table>
+                <tr>
+                    <th>Projet 1</th>
+                    <th>Projet 2</th>
+                    <th>Projet 2</th>
+                </tr>
+                <tr>
+                    <td>Fondementeaux du web</td>
+                    <td>Git&Github</td>
+                    <td>Portefolio HTML</td>
+                </tr>
+            </table>
         </section>
-        <!--Fin de la section Travail-->
+        <!--FIN SECTION WORK-->
 
-        <!--Section CV-->
+        <!--SECTION CV-->
         <section class="CV" id="CV">
-            <h1><i<i class="fa-regular fa-file-lines"></i>Mon Parcours</i></h1>
+            <h2>CV</h2>
             <div class="CV-images">
                 <p><img src="https://gomycode.com/sn/wp-content/uploads/sites/10/2022/06/new-logo-e1679052959915.png" alt="gomycode image"></p>
             </div>
         </section>
-        <!--Fin de la section CV-->
+        <!--Fin SECTION CV-->
 
-        <!--Pied de page-->
+        <!--FORMULAIRE-->
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" id="Nom">
+            <br>
+            <label for="nom">Prénom</label>
+            <input type="text" id="Prénom">
+            <br>
+            <label for="age">Age</label>
+            <input type="number" id="Age">
+        </form>  
+        <!--FIN FORMULAIRE--> 
+
+        <!--SECTION CONTACT-->
         <footer>
             <p>&copy; Contactez moi XX-XXX-XX-XX</p>
             <div class="social-media">
@@ -77,6 +86,6 @@
                 <p><i class="fa-brands fa-linkedin fa-2xl" alt="Linkedin"></i></p>
             </div>
         </footer>
-        <!--Fin du pied de page-->
+        <!--FIN SECTION CONTACT-->
     </body>
     </html>
