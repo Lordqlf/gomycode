@@ -2,6 +2,7 @@ body {
     font-family: roboto;
     padding: 0%;
     margin: 0%;
+    background-color: #000;
 }
 header{
     height:80vh;
@@ -54,7 +55,14 @@ header{
     margin-right:10px;
   }  
   .Travail{
-    
+    background-color: black;
+    color: #fff;
+  }
+  .work{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12%;
+    margin-top: 50px;
   }
   .CV{
     text-align: center;
