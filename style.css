@@ -12,3 +12,6 @@ h2,h3 {
 #blue-bordered {
     border: 5px dashed blue;
 }
+.onglets:link {
+    color: tomato;
+}
