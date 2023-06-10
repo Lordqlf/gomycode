@@ -9,3 +9,6 @@ h2,h3 {
 .title {
     color: blue;
 }
+#blue-bordered {
+    border: 5px dashed blue;
+}
