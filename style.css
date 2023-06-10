@@ -1,17 +1,11 @@
-h2,h3 {
-    color: red;
+body {
     font-family: roboto;
-    text-align: center;
+}
+.onglets li{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
 }
 .About {
     text-align: center;
-}
-.title {
-    color: blue;
-}
-#blue-bordered {
-    border: 5px dashed blue;
-}
-.onglets:link {
-    color: tomato;
 }
