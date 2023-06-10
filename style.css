@@ -3,3 +3,9 @@ h2,h3 {
     font-family: roboto;
     text-align: center;
 }
+.About {
+    text-align: center;
+}
+.title {
+    color: blue;
+}
