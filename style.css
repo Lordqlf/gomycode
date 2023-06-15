@@ -7,14 +7,14 @@ body {
 header{
     height:80vh;
     background: url('https://cutt.ly/TzafOyS');
-  background-position: center;
+    background-position: center;
     color: #fff;
     text-align:center;
   }
   
   header nav{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content:space-between;
     padding:20px;
     color:#000;
@@ -61,8 +61,10 @@ header{
   .work{
     display: flex;
     justify-content: space-around;
-    margin-right: 12%;
     margin-top: 50px;
+  }
+  .Travail > h2 {
+    text-align: center;
   }
   .CV{
     text-align: center;
