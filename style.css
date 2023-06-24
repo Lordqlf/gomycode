@@ -1,0 +1,39 @@
+header img{
+  width: 268px;
+  height: 33px;
+}
+.About, .Career:hover, .Departments:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+.Career, .Departments {
+  color: #ABABAB;
+}
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.mediclogo {
+  width: 40px;
+  height: 40px;
+}
+.sectionh1 {
+  color: #00B39B;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  text-align: center;
+}
+.twoparagraphs {
+  color: #747474;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 260px;
+  padding-right: 280px;
+  width: 100%;
+  justify-content: space-between;
+}
