@@ -23,8 +23,9 @@ header nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.sectionh1 {
+.sectionp1 {
   color: #00B39B;
   font-family: Arial, sans-serif;
   font-weight: 300;
